@@ -1,8 +1,8 @@
 # PROJECT: HEART DIASEASE PREDICTION
 
 ## Produced by
-Alumno: Guadalupe López Verdugo
-Matricula:A01688491
+Student: Guadalupe López Verdugo
+ID:A01688491
 
 ## What topic does the dataset cover?
 
