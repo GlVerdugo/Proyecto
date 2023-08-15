@@ -8,7 +8,7 @@ import os
 from sklearn.metrics import accuracy_score, roc_auc_score
 
 DATASETS_DIR = './datasets/'
-URL = pd.read_csv('C:\\Users\\glverdugo\\Documents\\Maestria\\MLops\\Proyecto\\heart_disease_prediction\\heart_disease_prediction\\data\\heart_disease_prediction/heart_disease_prediction/data/heart_2020_cleaned.csv')
+URL = pd.read_csv('C:/Users/glverdugo/Documents/Maestria/MLops/Proyecto/heart_disease_prediction/heart_disease_prediction/data/heart_2020_cleaned.csv')
 RETRIEVED_DATA = 'heart_2020_cleaned.csv'
 
 
