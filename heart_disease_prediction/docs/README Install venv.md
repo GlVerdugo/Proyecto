@@ -2,7 +2,7 @@
 Alumno: Guadalupe López Verdugo
 Matricula:A01688491
 
-Follow the instructions below to do the activity.
+Follow the instructions below to create and activate the virtual environment.
 ### Run the existing notebook
 1. Create a virtual environment with Python 3.10.9 (windows)
     * Create venv
