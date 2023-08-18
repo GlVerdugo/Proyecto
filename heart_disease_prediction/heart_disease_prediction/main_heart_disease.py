@@ -40,12 +40,10 @@ PIPELINE_SAVE_FILE = f'{PIPELINE_NAME}_output.pkl'
 
 
 if __name__ == "__main__":
-    print(os.getcwd())
-    os.chdir('heart_disease_prediction\heart_disease_prediction')
-    # Retrieve data
-    data_retriever = DataRetriever(URL, DATASETS_DIR)
-    result = data_retriever.retrieve_data()
-    print(result)
+    filepath = "heart_disease_prediction\heart_disease_prediction\data\heart_2020_cleaned.csv"
+    data_retriever = DataRetriever(filepath)
+    df = data_retriever.read_data()
+    print(df)
     
     # Instantiate the HeartDiseasePipeline class
     HeartDisease_data_pipeline = HeartDiseasePipeline(seed_model=SEED_MODEL,
